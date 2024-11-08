@@ -20,7 +20,7 @@ const CoffeeCard = ({ coffee, coffees, setCoffees }) => {
 
 
 
-        fetch(`http://localhost:5000/coffee/${_id}`, {
+        fetch(`https://hot-coffee-store-server-rp0epgm4w.vercel.app/coffee/${_id}`, {
           method:'DELETE'
         })
 
